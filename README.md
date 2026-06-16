@@ -1,6 +1,6 @@
 # Dushyant Garg
 
-I make apps, agent runtimes, and developer tools. I like things that run locally, hand off cleanly, and do not fall over the moment a real human touches them.
+I make apps, agent runtimes, and developer tools. I like things that run locally, hand off cleanly, and do not fall over the moment they get real usage.
 
 Right now I am especially interested in:
 
