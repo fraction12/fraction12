@@ -111,5 +111,5 @@ A map of the public chaos. Most of these are public now; a few are still private
 
 If a repo looks empty or mysterious, it is probably a seed that has not sprouted yet — or it is still private and about to go public. The commit graph tells the real story.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=fraction12&theme=dark&show_icons=true&hide_border=true&count_private=true&alt="GitHub profile stats for fraction12")
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=fraction12&layout=compact&theme=dark&hide_border=true&alt="Top languages for fraction12")
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=fraction12&theme=dark&show_icons=true&hide_border=true&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=fraction12&layout=compact&theme=dark&hide_border=true)
