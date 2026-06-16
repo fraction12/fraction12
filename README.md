@@ -1,10 +1,12 @@
-![Dushyant Garg — agent runtimes, local-first tools, developer tooling](./assets/header.svg)
+>![Dushyant Garg — agent runtimes, local-first tools, developer tooling](./assets/header.svg)
+
+![trophy](https://github-profile-trophy.vercel.app/?username=fraction12&theme=onestar&row=1&column=4&margin-w=10)
 
 ## now
 
 - Building [ai-research-lab](https://github.com/fraction12/ai-research-lab) — a paper on quality-gated KV capsule reuse in local tool-using agents.
-- Shaping [potato-v3](https://github.com/fraction12/potato-v3) in Rust, a personal orchestrator for agentic task operations.
-- Making [skillcard](https://github.com/fraction12/skillcard) so agent skill bundles can travel as PNG cards.
+- Shipping [skillcard](https://github.com/fraction12/skillcard) so agent skill bundles can travel as PNG cards.
+- Running [potato-v3](https://github.com/fraction12/potato-v3) in Rust, a personal orchestrator for agentic task operations.
 
 I make apps, agent runtimes, and developer tools. I like things that run locally, hand off cleanly, and do not fall over the moment they get real usage.
 
@@ -22,84 +24,97 @@ Right now I am especially interested in:
 
 ---
 
-## What I am building
+## Featured
 
-A map of the public chaos. Most of these are public now; a few are still private but will be flipped soon.
+These are the ones I would point to first.
+
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [ClawK](https://github.com/fraction12/ClawK) | ⭐ 4 | Native macOS companion for OpenClaw. Menu-bar monitoring for sessions, heartbeats, memory, cron. | Swift |
+| [agentsense](https://github.com/fraction12/agentsense) | ⭐ 3 | Knowledge graph memory plugin for OpenClaw. Your agent remembers who, what, and how things connect. | TypeScript |
+| [deepclean](https://github.com/fraction12/deepclean) | ⭐ 2 | Generate cleanup reports and actionable plans for messy codebases. | TypeScript |
+| [agenttk](https://github.com/fraction12/agenttk) | ⭐ 2 | Bits and pieces I use to build agents. | TypeScript |
+| [potato-v3](https://github.com/fraction12/potato-v3) | ⭐ 2 | Personal orchestrator for agentic task operations, rewritten in Rust. | Rust |
+| [ai-research-lab](https://github.com/fraction12/ai-research-lab) | — | Research repo for a paper on quality-gated KV capsule reuse in local tool-using agents. | Python |
+
+## The full catalog
+
+A map of the public chaos. Most of these are public now; a few are still private but will be flipped soon. Star counts as of whenever GitHub last cached them.
 
 <details>
 <summary>Agents & agent infrastructure — the main plot</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [agent-skills](https://github.com/fraction12/agent-skills) | Reusable agent capabilities I keep rewriting in every project. | Python |
-| [agentplan](https://github.com/fraction12/agentplan) | A shared to-do list for AI agents. Zero deps, pure Python. | Python |
-| [agenttk](https://github.com/fraction12/agenttk) | Bits and pieces I use to build agents. | TypeScript |
-| [starglass](https://github.com/fraction12/starglass) | Watch what agents are doing and route the chaos somewhere useful. | TypeScript |
-| [potato-v3](https://github.com/fraction12/potato-v3) | My personal task orchestrator, rewritten in Rust because I felt like it. | Rust |
-| [potato-mcp](https://github.com/fraction12/potato-mcp) | The MCP server side of the potato. | — |
-| [agentrem](https://github.com/fraction12/agentrem) | Reminders for agents: time triggers, keywords, conditions, priority escalation, recurrence, token budgets. | TypeScript |
-| [agentsense](https://github.com/fraction12/agentsense) | Memory plugin for OpenClaw. Lets an agent remember people, things, and how they connect. | TypeScript |
-| [ClawK](https://github.com/fraction12/ClawK) | Native macOS companion for OpenClaw. Menu-bar monitoring for sessions, heartbeats, memory, cron. | Swift |
-| [homebrew-tap](https://github.com/fraction12/homebrew-tap) | `brew install` support for ClawK and whatever else I ship. | Ruby |
-| [octocheck](https://github.com/fraction12/octocheck) | GitHub sanity checker. | JavaScript |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [agent-skills](https://github.com/fraction12/agent-skills) | ⭐ 1 | Reusable agent capabilities I keep rewriting in every project. | Python |
+| [agentplan](https://github.com/fraction12/agentplan) | ⭐ 1 | A shared to-do list for AI agents. Zero deps, pure Python. | Python |
+| [agenttk](https://github.com/fraction12/agenttk) | ⭐ 2 | Bits and pieces I use to build agents. | TypeScript |
+| [starglass](https://github.com/fraction12/starglass) | ⭐ 1 | Watch what agents are doing and route the chaos somewhere useful. | TypeScript |
+| [potato-v3](https://github.com/fraction12/potato-v3) | ⭐ 2 | Personal orchestrator for agentic task operations, rewritten in Rust. | Rust |
+| [potato-mcp](https://github.com/fraction12/potato-mcp) | — | The MCP server side of the potato. | — |
+| [agentrem](https://github.com/fraction12/agentrem) | ⭐ 1 | Reminders for agents: time triggers, keywords, conditions, priority escalation, recurrence, token budgets. | TypeScript |
+| [agentsense](https://github.com/fraction12/agentsense) | ⭐ 3 | Knowledge graph memory plugin for OpenClaw. Your agent remembers who, what, and how things connect. | TypeScript |
+| [ClawK](https://github.com/fraction12/ClawK) | ⭐ 4 | Native macOS companion for OpenClaw. Menu-bar monitoring for sessions, heartbeats, memory, cron. | Swift |
+| [homebrew-tap](https://github.com/fraction12/homebrew-tap) | — | `brew install` support for ClawK and whatever else I ship. | Ruby |
+| [octocheck](https://github.com/fraction12/octocheck) | — | GitHub sanity checker. | JavaScript |
 
 </details>
 
 <details>
 <summary>Local-first AI & research — runs on your machine, not someone else's rent bill</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [ai-research-lab](https://github.com/fraction12/ai-research-lab) | Research repo for a paper on quality-gated KV capsule reuse in local tool-using agents. | Python |
-| [open-rank](https://github.com/fraction12/open-rank) | Open benchmark for AI agents: daily puzzles, public rankings. | Astro |
-| [openspec-studio](https://github.com/fraction12/openspec-studio) | Desktop workbench for poking around OpenSpec repositories. | TypeScript |
-| [localdesk](https://github.com/fraction12/localdesk) | Another local-first desktop workbench. This one is mine. | TypeScript |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [ai-research-lab](https://github.com/fraction12/ai-research-lab) | — | Research repo for a paper on quality-gated KV capsule reuse in local tool-using agents. | Python |
+| [open-rank](https://github.com/fraction12/open-rank) | — | The open benchmark for AI agents — daily puzzles, public rankings. | Astro |
+| [openspec-studio](https://github.com/fraction12/openspec-studio) | ⭐ 1 | Desktop workbench for poking around OpenSpec repositories. | TypeScript |
+| [localdesk](https://github.com/fraction12/localdesk) | — | Another local-first desktop workbench. This one is mine. | TypeScript |
 
 </details>
 
 <details>
 <summary>Developer tooling & cleanup — making codebases less of a haunted house</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [deepclean](https://github.com/fraction12/deepclean) | Generate cleanup reports and actionable plans for messy codebases. | TypeScript |
-| [explain](https://github.com/fraction12/explain) | Feed it a TS/JS codebase, get back an architecture doc a human can read. | TypeScript |
-| [spec-ui](https://github.com/fraction12/spec-ui) | UI for specs. | JavaScript |
-| [WireFlow](https://github.com/fraction12/WireFlow) | Wireframing and planning app. Imagine ExcalDraw but better. | TypeScript |
-| [job-hunt-crm](https://github.com/fraction12/job-hunt-crm) | Local-first CRM I built to track my own job search. | TypeScript |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [deepclean](https://github.com/fraction12/deepclean) | ⭐ 2 | Generate cleanup reports and actionable plans for messy codebases. | TypeScript |
+| [explain](https://github.com/fraction12/explain) | — | Feed it a TS/JS codebase, get back an architecture doc a human can read. | TypeScript |
+| [spec-ui](https://github.com/fraction12/spec-ui) | ⭐ 1 | UI for specs. | JavaScript |
+| [WireFlow](https://github.com/fraction12/WireFlow) | — | Wireframing and planning app. Imagine ExcalDraw but better. | TypeScript |
+| [job-hunt-crm](https://github.com/fraction12/job-hunt-crm) | — | Local-first CRM I built to track my own job search. | TypeScript |
 
 </details>
 
 <details>
 <summary>Skills, cards & distribution — the meta-layer</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [microcanvas](https://github.com/fraction12/microcanvas) | Small, dependable canvas tool for AI coding assistants. | Swift |
-| [skillcard](https://github.com/fraction12/skillcard) | PNG cards that embed agent skill bundles so they travel with the image. | Python |
-| [cairn](https://github.com/fraction12/cairn) | Leave markers and memory behind for agent runs. | TypeScript |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [microcanvas](https://github.com/fraction12/microcanvas) | ⭐ 1 | Small, dependable canvas tool for AI coding assistants. | Swift |
+| [skillcard](https://github.com/fraction12/skillcard) | — | PNG cards that embed agent skill bundles so they travel with the image. | Python |
+| [cairn](https://github.com/fraction12/cairn) | — | Leave markers and memory behind for agent runs. | TypeScript |
 
 </details>
 
 <details>
 <summary>Web, docs & portfolio — the public face</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [portfolio](https://github.com/fraction12/portfolio) | Personal site — Astro, zero frameworks, pure CSS animations. | TypeScript |
-| [mintlify-docs](https://github.com/fraction12/mintlify-docs) | Mintlify docs setup. | MDX |
-| [docs](https://github.com/fraction12/docs) | More docs. | MDX |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [portfolio](https://github.com/fraction12/portfolio) | ⭐ 1 | Personal site — Astro, zero frameworks, pure CSS animations. | TypeScript |
+| [mintlify-docs](https://github.com/fraction12/mintlify-docs) | — | Mintlify docs setup. | MDX |
+| [docs](https://github.com/fraction12/docs) | — | More docs. | MDX |
 
 </details>
 
 <details>
 <summary>Random experiments & side quests — not everything needs a business model</summary>
 
-| Repository | What it does | Language |
-| --- | --- | --- |
-| [eat](https://github.com/fraction12/eat) | Food-related TypeScript experiment. | TypeScript |
-| [dndbuddy](https://github.com/fraction12/dndbuddy) | Buddy for your D&D stuff. | TypeScript |
-| [RecipeApp](https://github.com/fraction12/RecipeApp) | Older recipe app. Holds up. | JavaScript |
+| Repository | Stars | What it does | Language |
+| --- | --- | --- | --- |
+| [eat](https://github.com/fraction12/eat) | — | Food-related TypeScript experiment. | TypeScript |
+| [dndbuddy](https://github.com/fraction12/dndbuddy) | — | Buddy for your D&D stuff. | TypeScript |
+| [RecipeApp](https://github.com/fraction12/RecipeApp) | — | Older recipe app. Holds up. | JavaScript |
 
 </details>
 
@@ -107,7 +122,7 @@ A map of the public chaos. Most of these are public now; a few are still private
 
 ## Stats that mean almost nothing
 
-30 repositories listed. Mostly TypeScript, with healthy amounts of Python and Swift, plus one Rust potato, one Ruby tap, one Astro project, and a few stragglers.
+30 repositories. Mostly TypeScript, with healthy amounts of Python and Swift, plus one Rust potato, one Ruby tap, one Astro project, and a few stragglers.
 
 If a repo looks empty or mysterious, it is probably a seed that has not sprouted yet — or it is still private and about to go public. The commit graph tells the real story.
 
