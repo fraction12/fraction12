@@ -1,4 +1,10 @@
-# Dushyant Garg
+![Dushyant Garg — agent runtimes, local-first tools, developer tooling](./assets/header.svg)
+
+## now
+
+- Building [ai-research-lab](https://github.com/fraction12/ai-research-lab) — a paper on quality-gated KV capsule reuse in local tool-using agents.
+- Shaping [potato-v3](https://github.com/fraction12/potato-v3) in Rust, a personal orchestrator for agentic task operations.
+- Making [skillcard](https://github.com/fraction12/skillcard) so agent skill bundles can travel as PNG cards.
 
 I make apps, agent runtimes, and developer tools. I like things that run locally, hand off cleanly, and do not fall over the moment they get real usage.
 
@@ -20,9 +26,8 @@ Right now I am especially interested in:
 
 A map of the public chaos. Most of these are public now; a few are still private but will be flipped soon.
 
-### Agents & agent infrastructure
-
-The main plot. These are the tools I keep coming back to.
+<details>
+<summary>Agents & agent infrastructure — the main plot</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
@@ -38,9 +43,10 @@ The main plot. These are the tools I keep coming back to.
 | [homebrew-tap](https://github.com/fraction12/homebrew-tap) | `brew install` support for ClawK and whatever else I ship. | Ruby |
 | [octocheck](https://github.com/fraction12/octocheck) | GitHub sanity checker. | JavaScript |
 
-### Local-first AI & research
+</details>
 
-The stuff that runs on your machine, not someone else's rent bill.
+<details>
+<summary>Local-first AI & research — runs on your machine, not someone else's rent bill</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
@@ -49,9 +55,10 @@ The stuff that runs on your machine, not someone else's rent bill.
 | [openspec-studio](https://github.com/fraction12/openspec-studio) | Desktop workbench for poking around OpenSpec repositories. | TypeScript |
 | [localdesk](https://github.com/fraction12/localdesk) | Another local-first desktop workbench. This one is mine. | TypeScript |
 
-### Developer tooling & cleanup
+</details>
 
-Making codebases less of a haunted house.
+<details>
+<summary>Developer tooling & cleanup — making codebases less of a haunted house</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
@@ -61,9 +68,10 @@ Making codebases less of a haunted house.
 | [WireFlow](https://github.com/fraction12/WireFlow) | Wireframing and planning app. Imagine ExcalDraw but better. | TypeScript |
 | [job-hunt-crm](https://github.com/fraction12/job-hunt-crm) | Local-first CRM I built to track my own job search. | TypeScript |
 
-### Skills, cards & distribution
+</details>
 
-The meta-layer. Tools about tools.
+<details>
+<summary>Skills, cards & distribution — the meta-layer</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
@@ -71,9 +79,10 @@ The meta-layer. Tools about tools.
 | [skillcard](https://github.com/fraction12/skillcard) | PNG cards that embed agent skill bundles so they travel with the image. | Python |
 | [cairn](https://github.com/fraction12/cairn) | Leave markers and memory behind for agent runs. | TypeScript |
 
-### Web, docs & portfolio
+</details>
 
-The public face and the words that explain the rest.
+<details>
+<summary>Web, docs & portfolio — the public face</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
@@ -81,15 +90,18 @@ The public face and the words that explain the rest.
 | [mintlify-docs](https://github.com/fraction12/mintlify-docs) | Mintlify docs setup. | MDX |
 | [docs](https://github.com/fraction12/docs) | More docs. | MDX |
 
-### Random experiments & side quests
+</details>
 
-Not everything needs a business model. Some things just need to exist.
+<details>
+<summary>Random experiments & side quests — not everything needs a business model</summary>
 
 | Repository | What it does | Language |
 | --- | --- | --- |
 | [eat](https://github.com/fraction12/eat) | Food-related TypeScript experiment. | TypeScript |
 | [dndbuddy](https://github.com/fraction12/dndbuddy) | Buddy for your D&D stuff. | TypeScript |
 | [RecipeApp](https://github.com/fraction12/RecipeApp) | Older recipe app. Holds up. | JavaScript |
+
+</details>
 
 ---
 
@@ -98,3 +110,6 @@ Not everything needs a business model. Some things just need to exist.
 30 repositories listed. Mostly TypeScript, with healthy amounts of Python and Swift, plus one Rust potato, one Ruby tap, one Astro project, and a few stragglers.
 
 If a repo looks empty or mysterious, it is probably a seed that has not sprouted yet — or it is still private and about to go public. The commit graph tells the real story.
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=fraction12&theme=dark&show_icons=true&hide_border=true&count_private=true&alt="GitHub profile stats for fraction12")
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=fraction12&layout=compact&theme=dark&hide_border=true&alt="Top languages for fraction12")
